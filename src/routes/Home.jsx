@@ -3,14 +3,14 @@ import Hero from "../components/Hero";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
-import HeroImg from "../assets/12.jpg";
+import Herovideo from "../assets/video-1.mp4"
 function Home (){
     return (
         <>
         <Navbar />
             <Hero 
             cName = "hero"
-            heroImg = {HeroImg}
+            heroVideo ={Herovideo}
             title = "Your Journey Your Story"
             text = "Choose Your Favorite Destination"
             buttonText = "Travel Plan"

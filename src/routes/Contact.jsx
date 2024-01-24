@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
-import ContactImg from "../assets/2.jpg";
+import Herovideo from "../assets/video-1.mp4"
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 function Contact (){
@@ -8,8 +8,8 @@ function Contact (){
         <>
         <Navbar />
             <Hero 
-            cName = "hero-mid"
-            heroImg = {ContactImg}
+            cName = "hero"
+            heroVideo ={Herovideo}
             title = "Contact"
 
             btnClass = "hide"

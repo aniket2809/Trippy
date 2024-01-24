@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
-import ServiceImg from "../assets/night.jpg";
+import Herovideo from "../assets/video-1.mp4"
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
 
@@ -9,8 +9,8 @@ function Service (){
         <>
         <Navbar />
             <Hero 
-            cName = "hero-mid"
-            heroImg = {ServiceImg}
+            cName = "hero"
+            heroVideo ={Herovideo}
             title = "Service"
 
             btnClass = "hide"

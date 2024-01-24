@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
-import AboutImg from "../assets/night.jpg";
+import Herovideo from "../assets/video-1.mp4"
 import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 function About (){
@@ -8,8 +8,8 @@ function About (){
         <>
         <Navbar />
             <Hero 
-            cName = "hero-mid"
-            heroImg = {AboutImg}
+            cName = "hero"
+            heroVideo ={Herovideo}
             title = "About"
 
             btnClass = "hide"
